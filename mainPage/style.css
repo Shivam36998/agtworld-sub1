@@ -3,7 +3,7 @@
 .center_image {
   position: relative;
   height: 68vh;
-  background-image: url("../assets/Rectangle 2.png");
+  background-image: url("./assets/Rectangle 2.png");
   background-attachment: fixed;
   background-position: top;
   background-size: 100% 78%;
@@ -148,7 +148,7 @@ section {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
-  background-image: url("../assets/image/Rectangle 5.png");
+  background-image: url("./assets/image/Rectangle 5.png");
 }
 .card_img_1 {
   width: 100%;
@@ -156,7 +156,7 @@ section {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
-  background-image: url("../assets/Rectangle\ 5.png");
+  background-image: url("./assets/Rectangle\ 5.png");
 }
 .card_img_2 {
   width: 100%;
@@ -164,7 +164,7 @@ section {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
-  background-image: url("../assets/Rectangle\ 5\ \(1\).png");
+  background-image: url("./assets/Rectangle\ 5\ \(1\).png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
