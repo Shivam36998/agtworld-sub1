@@ -4,6 +4,10 @@
   section {
     width: 80%;
   }
+  .modal {
+    width: 750px;
+    left: 10%;
+  }
   .card_btn {
     display: none !important;
   }
@@ -13,10 +17,11 @@
   section {
     width: 90%;
   }
-  .signin_main{
-    width: 95%;
+  .modal {
+    width: 100%;
+    left: 0%;
   }
-  .signin_top{
+  .signin_top {
     font-size: 14px;
   }
 }
@@ -24,6 +29,14 @@
 @media screen and (max-width: 630px) {
   section {
     width: 100%;
+  }
+  .modal {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: flex-end;
+    bottom: 0;
   }
   .card_left_section {
     display: none;
@@ -34,7 +47,7 @@
   }
   .signup_container {
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     justify-content: flex-end;
   }
   .signup_top {
@@ -134,7 +147,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -70%;
   }
   .signup_container .signup_cross_icon i {
     margin-top: 115px !important;
@@ -149,7 +161,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -70%;
   }
   .signup_container .signin_cross_icon i {
     margin-top: 115px !important;
@@ -211,7 +222,6 @@
     display: flex;
     z-index: 20;
     position: fixed;
-    /* top: 0%; */
     height: 100px;
     right: 0;
     bottom: 0;
