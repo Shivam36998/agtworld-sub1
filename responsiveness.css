@@ -84,7 +84,7 @@
 
   .center_image {
     position: relative;
-    background-image: url("../assets/android.png");
+    background-image: url("./assets/image/android.png");
     background-attachment: fixed;
     background-position: top;
     background-size: 100% 85%;
@@ -194,7 +194,7 @@
   .center_image {
     position: relative;
     height: 60vh;
-    background-image: url("../assets/android.png");
+    background-image: url("./assets/image/android.png");
     background-attachment: fixed;
     background-position: top;
     background-size: 100% 77%;
